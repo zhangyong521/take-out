@@ -9,7 +9,8 @@ Page({
    * 页面的初始数据
    */
   data: {
-    banners:[] 
+    banners:[], 
+    recommends:[]
   },
 
   /**
@@ -19,13 +20,15 @@ Page({
   onLoad: function (options) {
     //1.请求轮播图数据
     getMultiData().then(res=>{
-      //取出轮播图数据
+      //取出轮播图数据和推荐数据
       const banners= res.data.data.banner.list;
+      const recommends= res.data.data.recommend.list;
       //打印轮播图数据
-      console.log(banners)
+      console.log(res)
       //将banner数据放到data中
       this.setData({
-        banners
+        banners,
+        recommends
       })
     })
   }

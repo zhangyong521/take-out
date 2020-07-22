@@ -1,4 +1,62 @@
 /* pages/home/home.wxss */
-.swiper-item image{
-  width: 100%;  
+.swiper-item image {
+  width: 100%;
+}
+
+.nearby {
+  margin-top: 30rpx;
+  font-family: Arial;
+  font-size: 30rpx;
+  color: #555;
+  text-align: center;
+}
+
+.recommend {
+  display: flex;
+  margin-top: 20rpx;
+  padding-bottom: 35rpx;
+  border-bottom: 16rpx solid #eee;
+}
+
+.recommend-item {
+  flex: 1;
+  text-align: center;
+}
+
+.recommend-item image {
+  width: 140rpx;
+  color: #555;
+  height: 140rpx;
+}
+
+.recommend-item view {
+  font-size: 30rpx;
+}
+
+.shopInfo {
+  margin-top: 30rpx;
+  font-family: Arial;
+  font-size: 30rpx;
+  color: #555;
+  text-align: center;
+}
+
+.shop {
+  margin-top: 20rpx;
+  padding-bottom: 35rpx;
+  border-bottom: 16rpx solid #eee;
+}
+
+.shop-item {
+  margin-top: 10rpx;
+  border-bottom: 10rpx solid #eee;
+  color: #555;
+  font-size: 40rpx;
+  
+}
+
+.shop-item image {
+  width: 140rpx;
+  height: 140rpx;
+  margin-left: 20rpx;
 }
